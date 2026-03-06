@@ -1,0 +1,359 @@
+.home-alt-page {
+  min-height: 100vh;
+}
+
+.hero-alt {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
+  padding: 140px 2rem 4rem;
+  text-align: center;
+}
+
+.hero-alt-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-alt h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-alt-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.hero-alt-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn-outline {
+  padding: 1rem 2.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  background: transparent;
+  color: #667eea;
+  border: 2px solid #667eea;
+}
+
+.btn-outline:hover {
+  background: #667eea;
+  color: white;
+}
+
+.effective-section {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  padding: 6rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.effective-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.effective-container h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  color: #000;
+}
+
+.effective-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+.phone-mockup-large {
+  width: 350px;
+  height: 700px;
+  background: #000;
+  border-radius: 50px;
+  padding: 20px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 2;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 35px;
+  padding: 2rem;
+}
+
+.screen-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-item {
+  padding: 1rem;
+  background: #f5f7fa;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.decorative-elements {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.floating-element {
+  position: absolute;
+  font-size: 4rem;
+}
+
+.floating-element.plant {
+  top: 10%;
+  left: 10%;
+  animation: float 4s ease-in-out infinite;
+}
+
+.floating-element.sphere {
+  bottom: 15%;
+  right: 15%;
+  animation: float 5s ease-in-out infinite 1s;
+}
+
+.features-alt-section {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.features-alt-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.feature-alt-card {
+  text-align: center;
+  padding: 2rem;
+}
+
+.feature-alt-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-alt-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.feature-alt-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.management-section {
+  background: #f8f9fa;
+  padding: 6rem 2rem;
+}
+
+.management-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.management-container h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.management-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 4rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.management-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.management-card {
+  background: white;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.card-image {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image.green {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+}
+
+.card-image.yellow {
+  background: linear-gradient(135deg, #fff9e6 0%, #ffe4b3 100%);
+}
+
+.chart-visual {
+  width: 200px;
+  height: 150px;
+  background: rgba(102, 126, 234, 0.3);
+  border-radius: 20px;
+}
+
+.emoji-visual {
+  font-size: 6rem;
+}
+
+.management-card h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 2rem 0.5rem;
+  color: #000;
+}
+
+.management-card p {
+  color: #666;
+  margin: 0 2rem 2rem;
+  line-height: 1.6;
+}
+
+.testimonials-alt-section {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.testimonials-alt-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials-alt-container h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  color: #000;
+}
+
+.testimonials-alt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.testimonial-alt-card {
+  background: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 25px;
+  text-align: left;
+}
+
+.testimonial-alt-card p {
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+.testimonial-alt-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author-alt-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.author-alt-name {
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.3rem;
+}
+
+.author-alt-role {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media (max-width: 1024px) {
+  .hero-alt h1 {
+    font-size: 3rem;
+  }
+  
+  .features-alt-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .management-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .testimonials-alt-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-alt h1 {
+    font-size: 2.5rem;
+  }
+  
+  .features-alt-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .phone-mockup-large {
+    width: 280px;
+    height: 560px;
+  }
+  
+  .hero-alt-buttons {
+    flex-direction: column;
+  }
+}
