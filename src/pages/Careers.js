@@ -161,9 +161,6 @@ const Careers = () => {
             {/* <a href="#" className="link-btn">
               Send us your resume →
             </a> */}
-            <Link to="/contact" className="link-btn">
-              Send us your resume →
-            </Link>
           </div>
         </div>
       </section>
