@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Careers.css";
+import { Link } from "react-router";
 
 const Careers = () => {
   return (
@@ -157,9 +158,12 @@ const Careers = () => {
 
           <div className="positions-cta">
             <p>Don't see a role that fits?</p>
-            <a href="#" className="link-btn">
+            {/* <a href="#" className="link-btn">
               Send us your resume →
-            </a>
+            </a> */}
+            <Link to="/contact" className="link-btn">
+              Send us your resume →
+            </Link>
           </div>
         </div>
       </section>
